@@ -1,0 +1,4 @@
+<view class="movie-card" onTap="goToDetail" data-id="{{id}}" data-mediatype="{{mediaType}}">
+  <image class="movie-image" src="{{poster}}" mode="scaleToFill"></image>
+  <text class="movie-title">{{title}}</text>
+</view>

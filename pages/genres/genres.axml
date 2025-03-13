@@ -1,0 +1,6 @@
+<view class="genres-container">
+  <block a:for="{{genres}}" a:key="id">
+    <genre-button id="{{item.id}}" name="{{item.name}}"></genre-button>
+  </block>
+  <navbar></navbar>
+</view>

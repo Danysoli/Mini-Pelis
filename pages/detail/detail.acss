@@ -1,0 +1,66 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.backdrop {
+  width: 100%;
+  height: 200px; /* Ajusta la altura según tus necesidades */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.info {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f7f7f7;
+}
+
+.favorite-button {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+}
+
+.release-overview-container {
+  display: flex;
+  flex-direction: column; /* Asegura que los elementos estén en columna */
+  gap: 5px; /* Espaciado entre la fecha y la descripción */
+  margin-bottom: 10px;
+}
+
+.release-date {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.overview {
+  font-size: 15px;
+  color: #ddd;;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.navbar {
+  margin-top: 20px;
+  width: 100%;
+}

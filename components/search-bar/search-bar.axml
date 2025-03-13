@@ -1,0 +1,30 @@
+<view class="search-container">
+  <input 
+    type="text" 
+    onInput="onInput" 
+    placeholder="Buscar películas o series..." 
+    value="{{query}}" 
+    class="search-input"
+  />
+
+  <image 
+  a:if="{{query.length > 0}}" 
+  src="/assets/icons/close.svg" 
+  class="clear-button" 
+  onTap="clearSearch"
+  />
+
+  <view a:if="{{suggestions.length > 0}}" class="suggestions">
+    <block a:for="{{suggestions}}" a:key="id">
+      <view 
+        class="suggestion-item" 
+        onTap="selectSuggestion" 
+        data-id="{{item.id}}" 
+        data-mediaType="{{item.mediaType}}"
+      >
+        <image a:if="{{item.poster}}" src="{{item.poster}}" class="poster" />
+        <text>{{item.title}}</text>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+.movie-card {
+  width: 30%;  /* 3 tarjetas por fila */
+  margin: 1.5%;
+  text-align: center;
+}
+
+.movie-image {
+  width: 100%;
+  /* aspect-ratio: 400 /  250; Mantiene la proporción 500x750 */
+  border-radius: 8px;
+}
+
+.movie-title {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #f7f7f7;
+}

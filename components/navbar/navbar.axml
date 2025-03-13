@@ -1,0 +1,14 @@
+<view class="navbar">
+  <view class="navbar-item {{currentIcon === 'home' ? 'selected' : ''}}" onTap="goToHome">
+    <image class="nav-image" mode="scaleToFill" src="{{currentIcon === 'home' ? '/assets/icons/home.svg' : '/assets/icons/home-outline.svg'}}" />
+    <button class="nav-button">Inicio</button>
+  </view>
+  <view class="navbar-item {{currentIcon === 'favorites' ? 'selected' : ''}}" onTap="goToFavorites">
+    <image class="nav-image" mode="scaleToFill" src="{{currentIcon === 'favorites' ? '/assets/icons/heart.svg' : '/assets/icons/heart-outline.svg'}}" />
+    <button class="nav-button">Favoritos</button>
+  </view>
+  <view class="navbar-item {{currentIcon === 'genres' ? 'selected' : ''}}" onTap="goToGenres">
+    <image class="nav-image" mode="scaleToFill" src="{{currentIcon === 'genres' ? '/assets/icons/menu.svg' : '/assets/icons/menu-outline.svg'}}" />
+    <button class="nav-button">Géneros</button>
+  </view>
+</view>

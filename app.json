@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/favorites/favorites",
+    "pages/genres/genres",
+    "pages/detail/detail",
+    "pages/genre-filter/genre-filter"
+  ],
+  "window": {
+    "defaultTitle": "Mini Peli 🎬"
+  },
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "movie-card": "/components/movieCard/movieCard"
+  }
+}

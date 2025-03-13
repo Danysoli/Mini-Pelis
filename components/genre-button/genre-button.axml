@@ -1,0 +1,3 @@
+<view class="genre-button" onTap="goToGenre">
+  {{name}}
+</view>

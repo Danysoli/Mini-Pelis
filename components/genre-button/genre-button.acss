@@ -1,0 +1,11 @@
+.genre-button {
+  width: 100%;
+  margin: 1%;
+  padding: 16px;
+  background-color: #1F1F1F;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}

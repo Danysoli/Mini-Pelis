@@ -1,0 +1,12 @@
+.favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 10px;
+  padding-bottom: 70px;
+  background-color: #000814;
+}
+
+.a-page {
+  display: block !important;
+}

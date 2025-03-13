@@ -1,0 +1,11 @@
+<view class="favorites-container">
+  <block a:for="{{favoriteMovies}}" a:key="id">
+    <movie-card title="{{item.title}}" poster="{{item.poster}}" id="{{item.id}}" mediaType="{{item.mediaType}}"></movie-card>
+  </block>
+
+  <view a:if="{{favoriteMovies.length === 0}}" class="empty-message">
+    <text>No hay películas en favoritos.</text>
+  </view>
+
+  <navbar></navbar>
+</view>

@@ -1,0 +1,9 @@
+<view class="movie-container">
+  <search-bar movies="{{movies}}" onSelectSuggestion="onSelectSuggestion" ></search-bar>
+
+  <block a:for="{{movies}}" a:key="index">
+    <movie-card title="{{item.title}}" poster="{{item.poster}}" id="{{item.id}}" mediaType="{{item.mediaType}}"></movie-card>
+  </block>
+  <navbar></navbar>
+</view>
+

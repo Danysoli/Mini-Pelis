@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "genre-button": "/components/genre-button/genre-button"
+  },
+  "styleIsolation": "apply-shared"
+}

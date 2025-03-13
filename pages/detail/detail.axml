@@ -1,0 +1,21 @@
+<view class="detail-container">
+  <image class="backdrop" src="{{movie.backdrop}}" mode="aspectFill"></image>
+
+  <view class="info">
+    <view class="title-container">
+      <text class="title">{{movie.title}}</text>
+      <image 
+        src="{{isFavorite ? '/assets/icons/heart.svg' : '/assets/icons/heart-outline.svg'}}"
+        class="favorite-button"
+        onTap="toggleFavorite"
+      />
+    </view>
+
+    <view class="release-overview-container">
+      <text class="release-date">📅 Fecha estreno: {{movie.release_date}}</text>
+      <text class="overview">{{movie.overview}}</text>
+    </view>
+  </view>
+
+  <navbar></navbar>
+</view>
