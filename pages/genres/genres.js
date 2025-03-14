@@ -6,7 +6,6 @@
  */
 Page({
   data: {
-    // Lista de géneros con su id y nombre
     genres: [
       { id: 12, name: "Aventura" },
       { id: 16, name: "Animación" },

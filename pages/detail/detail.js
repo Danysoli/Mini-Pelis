@@ -40,7 +40,8 @@ Page({
           backdrop: `https://image.tmdb.org/t/p/w780${data.backdrop_path}`,
           release_date: data.release_date || data.first_air_date,
           overview: data.overview || "No hay descripción.",
-          poster: `https://image.tmdb.org/t/p/w500${data.poster_path}`
+          poster: `https://image.tmdb.org/t/p/w500${data.poster_path}`,
+          vote: data.vote_average
         };
 
         this.setData({ movie });

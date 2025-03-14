@@ -33,6 +33,12 @@
   color: #f7f7f7;
 }
 
+.vote {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e1d01a;
+}
+
 .favorite-button {
   width: 26px;
   height: 26px;

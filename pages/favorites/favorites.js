@@ -20,7 +20,7 @@ Page({
     let storedFavorites = my.getStorageSync({ key: "favorites" });
     storedFavorites = storedFavorites && storedFavorites.data ? storedFavorites.data : [];
 
-    console.log("📌 Películas en favoritos:", storedFavorites);
+    console.log("Películas en favoritos:", storedFavorites);
 
     // Actualizar el estado con las películas favoritas
     this.setData({ favoriteMovies: storedFavorites });

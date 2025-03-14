@@ -44,7 +44,7 @@ Component({
       );
 
       this.setData({ 
-        suggestions: filteredResults.slice(0, 5) // Solo mostrar 5 sugerencias
+        suggestions: filteredResults.slice(0, 5)
       });
     },
 
